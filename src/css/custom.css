@@ -23,6 +23,147 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
+html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+  box-shadow: none !important;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(100vh);
+  max-width: 1334px;
+  margin: 0 auto;
+  padding: 0 82px;
+}
+
+.main-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(100vh - 60px);
+  max-width: 1334px;
+  margin: 0 auto;
+  padding: 0 82px;
+}
+
+.interests-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  min-height: calc(100vh);
+  max-width: 1334px;
+  margin: 0 auto;
+  padding: 0 82px;
+  flex-direction: column;
+}
+
+.interests-title {
+}
+
+.interests-title-intro {
+  font-size: 42px;
+}
+
+.interests-title-name {
+  position: relative;
+  margin-bottom: 24px;
+  padding-left: 68px;
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #4c40f7;
+}
+
+.interests-title-name::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 52px;
+  height: 2px;
+  background: #4c40f7;
+}
+
+.main-title-container {
+  box-sizing: border-box;
+  padding-bottom: 60px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.main-title {
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+.title-img {
+  width: 650px;
+  min-width: 400px;
+  position: absolute;
+  right: 0px;
+  width: 420px;
+  z-index: -1;
+  height: 100%;
+  background-color: #1a1d88;
+}
+
+.title-name {
+  position: relative;
+  margin-bottom: 24px;
+  padding-left: 68px;
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #4c40f7;
+}
+
+.title-name::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 52px;
+  height: 2px;
+  background: #4c40f7;
+}
+
+.title-intro {
+  font-size: 72px;
+}
+
+.interests-overview {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.interest-card {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  padding: 8px;
+}
+
+.interest-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.interest-text {
+  font-size: 18px;
+  line-height: 1.77778;
+  color: #6b6b6b;
 }
