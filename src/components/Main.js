@@ -1,4 +1,5 @@
 import React from "react";
+import gif from "./gif.gif";
 
 export default function Main() {
   return (
@@ -10,9 +11,14 @@ export default function Main() {
             Hello, my name's Brian. I'm a Software Engineer
           </h1>
         </div>
+        <img className="main-img" src={gif} />
       </div>
-      <div className="title-img" />
-      <div className="card" />
+      <div className="bottom-bar-1" />
+      <div className="bottom-bar-2" />
+      <div className="bottom-bar-3" />
+      <div className="top-bar-1" />
+      <div className="top-bar-2" />
+      <div className="top-bar-3" />
     </div>
   );
 }
