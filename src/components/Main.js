@@ -3,9 +3,9 @@ import gif from "./gif.gif";
 
 export default function Main() {
   return (
-    <div className="main-container">
-      <div className="main-title-container">
-        <div className="main-title">
+    <div id="main" className="section">
+      <div className="content-container">
+        <div className="title-container">
           <div className="title-name">Brian Riwu Kaho</div>
           <h1 className="title-intro">
             Hello, my name's Brian. I'm a Software Engineer

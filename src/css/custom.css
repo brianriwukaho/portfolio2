@@ -108,7 +108,7 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   height: 600px;
 }
 
-.main-container {
+.section {
   position: relative;
   align-items: center;
   flex-direction: column;
@@ -117,7 +117,7 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   min-height: calc(100vh - 60px);
 }
 
-.main-title-container {
+.content-container {
   box-sizing: border-box;
   max-width: 1334px;
   padding-bottom: 60px;
@@ -127,20 +127,9 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   flex-wrap: wrap;
 }
 
-.main-title {
+.title-container {
   max-width: 500px;
   box-sizing: border-box;
-}
-
-.card {
-  width: 650px;
-  min-width: 400px;
-  position: absolute;
-  right: 0px;
-  width: 420px;
-  z-index: -1;
-  height: 100%;
-  background-color: #5956e9;
 }
 
 .title-name {
@@ -165,6 +154,17 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 
 .title-intro {
   font-size: 72px;
+}
+
+.card {
+  width: 650px;
+  min-width: 400px;
+  position: absolute;
+  right: 0px;
+  width: 420px;
+  z-index: -1;
+  height: 100%;
+  background-color: #5956e9;
 }
 
 .interests-container {
