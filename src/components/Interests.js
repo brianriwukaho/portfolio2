@@ -1,5 +1,5 @@
 import React from "react";
-import operation from "./operation.jpg";
+
 export default function Interests() {
   return (
     <div id="interests" className="section">
@@ -13,7 +13,7 @@ export default function Interests() {
         </div>
         <div className="interests-overview">
           <div className="interest-card">
-            <div className="interest-img-1"></div>
+            <div className="interest-img blue"></div>
             <div className="interest-title">Development</div>
             <div className="interest-text">
               Development is my craft. I love that it allows me to be creative,
@@ -23,7 +23,7 @@ export default function Interests() {
             </div>
           </div>
           <div className="interest-card">
-            <div className="interest-img-2"></div>
+            <div className="interest-img purple"></div>
             <div className="interest-title">Operations</div>
             <div className="interest-text">
               Creation is core to the human experience, and I am incredibly
@@ -33,7 +33,7 @@ export default function Interests() {
             </div>
           </div>
           <div className="interest-card">
-            <div className="interest-img-3"></div>
+            <div className="interest-img cyan"></div>
             <div className="interest-title">Architecture</div>
             <div className="interest-text">
               There is no point making a product if no one can see how awesome
@@ -43,7 +43,7 @@ export default function Interests() {
             </div>
           </div>
           <div className="interest-card">
-            <div className="interest-img-4"></div>
+            <div className="interest-img pink"></div>
             <div className="interest-title">Infrastructure</div>
             <div className="interest-text">
               Team work makes the dream work! I am super passionate about

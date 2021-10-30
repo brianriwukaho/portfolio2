@@ -167,20 +167,6 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: #5956e9;
 }
 
-.interests-container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-evenly;
-  min-height: calc(100vh - 60px);
-  max-width: 1334px;
-  margin: 0 auto;
-  padding: 0 82px;
-  flex-direction: column;
-}
-
-.interests-title {
-}
-
 .title-intro-md {
   font-size: 42px;
 }
@@ -206,31 +192,25 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   display: flex;
 }
 
-.interest-img-1 {
-  width: 180px;
-  height: 180px;
+.blue {
   background-color: #1836b2;
-  border-radius: 50%;
 }
 
-.interest-img-2 {
-  width: 180px;
-  height: 180px;
+.purple {
   background-color: #a066cb;
-  border-radius: 50%;
 }
 
-.interest-img-3 {
-  width: 180px;
-  height: 180px;
+.cyan {
   background-color: #86e7ed;
-  border-radius: 50%;
 }
 
-.interest-img-4 {
+.pink {
+  background-color: #fbc4a7;
+}
+
+.interest-img {
   width: 180px;
   height: 180px;
-  background-color: #fbc4a7;
   border-radius: 50%;
 }
 
@@ -249,38 +229,10 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   color: #6b6b6b;
 }
 
-.about-skills-container {
-  text-align: center;
-}
-
-.about-content-container {
-  display: flex;
-  padding: 40px;
-}
-
-.about-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
-  min-height: calc(100vh - 60px);
-}
-
-.about-info {
+.about-me {
   width: 500px;
   font-size: 18px;
   line-height: 1.77778;
-}
-
-.me {
-  width: 210px;
-}
-
-.about-title-intro {
-  max-width: 1334px;
-
-  font-size: 42px;
 }
 
 svg {
