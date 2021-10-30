@@ -1,4 +1,8 @@
 import React from "react";
+import Code from "./code.svg";
+import Gear from "./gears.svg";
+import Cloud from "./cloud.svg";
+import Infra from "./infra.svg";
 
 export default function Interests() {
   return (
@@ -13,7 +17,9 @@ export default function Interests() {
         </div>
         <div className="interests-overview">
           <div className="interest-card">
-            <div className="interest-img blue"></div>
+            <div className="interest-img blue">
+              <Code className="svg-icon" />
+            </div>
             <div className="interest-title">Development</div>
             <div className="interest-text">
               Development is my craft. I love that it allows me to be creative,
@@ -23,7 +29,9 @@ export default function Interests() {
             </div>
           </div>
           <div className="interest-card">
-            <div className="interest-img purple"></div>
+            <div className="interest-img purple">
+              <Gear className="svg-icon" />
+            </div>
             <div className="interest-title">Operations</div>
             <div className="interest-text">
               Creation is core to the human experience, and I am incredibly
@@ -33,7 +41,9 @@ export default function Interests() {
             </div>
           </div>
           <div className="interest-card">
-            <div className="interest-img cyan"></div>
+            <div className="interest-img cyan">
+              <Cloud className="svg-icon" />
+            </div>
             <div className="interest-title">Architecture</div>
             <div className="interest-text">
               There is no point making a product if no one can see how awesome
@@ -43,7 +53,9 @@ export default function Interests() {
             </div>
           </div>
           <div className="interest-card">
-            <div className="interest-img pink"></div>
+            <div className="interest-img pink">
+              <Infra className="svg-icon" />
+            </div>
             <div className="interest-title">Infrastructure</div>
             <div className="interest-text">
               Team work makes the dream work! I am super passionate about

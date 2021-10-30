@@ -1,14 +1,5 @@
 import React from "react";
-import JS from "./js.svg";
-import TS from "./ts.svg";
-import JAVA from "./java.svg";
-import NODEJS from "./nodejs.svg";
-import AWS from "./aws.svg";
-import Cfn from "./cloudformation.svg";
-import Docker from "./docker.svg";
-import Git from "./git.svg";
-import ReactLogo from "./reactlogo.svg";
-import Kubernetes from "./kubernetes.svg";
+import swyftx from "./swyftx.png";
 
 export default function About() {
   return (
@@ -27,6 +18,18 @@ export default function About() {
           I am highly proficient in Javascript ES6+ fundamentals and have worked
           professionally and personally on React and Angular.
           <br />
+          <br /> Knowledgable in TDD and BDD. Have written over 1000 jest tests
+          and am experienced with Enzyme / React Testing Libary integration
+          tests and Cypress E2E. Often thinking about:
+          https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications
+          <br />
+          <br />
+          I am also experienced with various backend Java backend frameworks
+          (Java EE, Spring, Quarkus). I have developed restful APIs, k8s
+          microservices and lambdas in java (don't do lambdas in java please).
+          Consistently with high unit testing coverage with the help of Jacoco
+          Test reports and Sonarqube.
+          <br />
           <br />I have experience working with event-driven FaaS architectures,
           writing CloudFormation templates, setting up CI/CD pipelines and
           configuring Kubernetes Clusters. I am a big believer of declarative
@@ -34,23 +37,9 @@ export default function About() {
         </div>
         <div className="skills-container">
           <div className="languages">
-            <h2>Languages</h2>
+            <h2>I currently work at Australia's leading Crypto Exchange</h2>
             <div className="icon-container">
-              <JS />
-              <TS />
-              <JAVA />
-              <NODEJS />
-            </div>
-          </div>
-          <div className="tools">
-            <h2>Tools</h2>
-            <div className="icon-container">
-              <ReactLogo />
-              <Docker />
-              <Kubernetes />
-              <AWS />
-              <Cfn />
-              <Git />
+              <img className="icon" src={swyftx} />
             </div>
           </div>
         </div>
