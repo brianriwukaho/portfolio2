@@ -4,7 +4,7 @@ export default function Interests() {
   return (
     <div className="interests-container">
       <div className="interests-title">
-        <div className="interests-title-name">What I Do</div>
+        <div className="title-name">What I Do</div>
         <h1 className="interests-title-intro">
           I enjoy being across the entire stack. Everything I don't know is a
           learning opportunity.

@@ -14,7 +14,7 @@ export default function About() {
   return (
     <div className="about-container">
       <div className="about-title">
-        <div className="about-title-name">About Me</div>
+        <div className="title-name">About Me</div>
         <h1 className="about-title-intro">
           As a kid I played with legos. In my teens I played minecraft. <br /> I
           still do those things, but now I code as well. <br />

@@ -69,37 +69,37 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 
 .bottom-bar-1 {
   position: absolute;
+  left: 0;
   width: 100px;
   height: 200px;
   background-color: #1836b2;
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
   bottom: -100px;
-  left: 0;
   z-index: 10;
 }
 
 .bottom-bar-2 {
   position: absolute;
+  left: 0;
   width: 150px;
   height: 300px;
   background-color: #a066cb;
   border-top-right-radius: 150px;
   border-bottom-right-radius: 150px;
   bottom: -150px;
-  left: 0;
   z-index: 5;
 }
 
 .bottom-bar-3 {
   position: absolute;
+  left: 0;
   width: 200px;
   height: 400px;
   background-color: #86e7ed;
   border-top-right-radius: 200px;
   border-bottom-right-radius: 200px;
   bottom: -200px;
-  left: 0;
   z-index: 1;
 }
 
@@ -110,10 +110,10 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 
 .main-container {
   position: relative;
-  display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  display: flex;
   min-height: calc(100vh - 60px);
 }
 
@@ -183,26 +183,6 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 
 .interests-title-intro {
   font-size: 42px;
-}
-
-.interests-title-name {
-  position: relative;
-  margin-bottom: 24px;
-  padding-left: 68px;
-  font-size: 20px;
-  line-height: 1.4;
-  font-weight: 600;
-  color: #4c40f7;
-}
-
-.interests-title-name::before {
-  content: "";
-  position: absolute;
-  top: 15px;
-  left: 0;
-  width: 52px;
-  height: 2px;
-  background: #4c40f7;
 }
 
 .interests-overview {
@@ -307,24 +287,4 @@ svg {
   margin: 12px;
   width: 64px;
   height: 64px;
-}
-
-.about-title-name {
-  position: relative;
-  margin-bottom: 24px;
-  padding-left: 68px;
-  font-size: 20px;
-  line-height: 1.4;
-  font-weight: 600;
-  color: #4c40f7;
-}
-
-.about-title-name::before {
-  content: "";
-  position: absolute;
-  top: 15px;
-  left: 0;
-  width: 52px;
-  height: 2px;
-  background: #4c40f7;
 }
