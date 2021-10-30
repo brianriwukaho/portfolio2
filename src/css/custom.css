@@ -121,7 +121,7 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   box-sizing: border-box;
   max-width: 1334px;
   padding-bottom: 60px;
-  justify-content: space-between;
+  justify-content: center;
   display: flex;
   width: 100%;
   flex-wrap: wrap;
@@ -152,7 +152,7 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   background: #4c40f7;
 }
 
-.title-intro {
+.title-intro-lg {
   font-size: 72px;
 }
 
@@ -181,7 +181,7 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 .interests-title {
 }
 
-.interests-title-intro {
+.title-intro-md {
   font-size: 42px;
 }
 

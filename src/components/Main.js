@@ -7,7 +7,7 @@ export default function Main() {
       <div className="content-container">
         <div className="title-container">
           <div className="title-name">Brian Riwu Kaho</div>
-          <h1 className="title-intro">
+          <h1 className="title-intro-lg">
             Hello, my name's Brian. I'm a Software Engineer
           </h1>
         </div>
