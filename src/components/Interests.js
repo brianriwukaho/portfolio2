@@ -1,8 +1,8 @@
 import React from "react";
-import Code from "./code.svg";
-import Gear from "./gears.svg";
-import Cloud from "./cloud.svg";
-import Infra from "./infra.svg";
+import Code from "../assets/code.svg";
+import Gear from "../assets/gears.svg";
+import Cloud from "../assets/cloud.svg";
+import Infra from "../assets/infra.svg";
 
 export default function Interests() {
   return (

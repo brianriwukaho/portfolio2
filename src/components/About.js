@@ -1,5 +1,5 @@
 import React from "react";
-import swyftx from "./swyftx.png";
+import swyftx from "../assets/swyftx.png";
 
 export default function About() {
   return (

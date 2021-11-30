@@ -1,5 +1,5 @@
 import React from "react";
-import gif from "./gif.gif";
+import gif from "../assets/gif.gif";
 
 export default function Main() {
   return (
